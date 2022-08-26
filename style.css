@@ -2,3 +2,63 @@
 html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: red;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-signup {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-1-author {
+    font-weight: 700;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.call-to-action-signup {
+    background-color: transparent;
+}
+
+.footer {
+    color: #F9FAF8;
+}
