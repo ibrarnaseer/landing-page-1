@@ -56,7 +56,9 @@ a {
     min-width: 438px;
     min-height: 195px;
     border: 1px solid red;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-main {
@@ -74,7 +76,11 @@ a {
 .hero-signup {
     background-color: #3882f6;
     color: #F9FAF8;
-    max-width: 72px;
+    width: 88px;
+    height: 24px;
+    border: 1px solid #3882f6;
+    border-radius: 4px;
+    margin-top: 4px;
 }
 
 .information-header-text {
@@ -102,6 +108,9 @@ a {
     max-width: 158px;
     min-height: 158px;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -131,14 +140,46 @@ a {
     max-width: 880px;
 }
 
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+}
+
 .call-to-action {
     background-color: #3882f6;
+    width: 880px;
+    height: 96px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 .call-to-action-signup {
     background-color: transparent;
+    color: #F9FAF8;
+    border: 1px solid white;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    width: 88px;
+    height: 24px;
+}
+
+.call-to-action-header {
+    font-weight: 700;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FAF8;
+    height: 72px;
+    font-weight: lighter;
 }
